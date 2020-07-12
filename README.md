@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Configure Menus
+
+You can use this component by creating a config JSON file as an array with a list of your menus, nested as needed (see current file for example) and replacing src/config.json with your own file.
 
 ## Available Scripts
 
