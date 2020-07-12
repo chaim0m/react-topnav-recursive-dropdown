@@ -129,7 +129,7 @@
     color: #222;
 }
 .nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
-    background-color: green;
+    background-color: darkgrey;
     color: black;
 }
 

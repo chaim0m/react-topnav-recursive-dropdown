@@ -1,28 +1,43 @@
 
    [
     {
-      "name":"Dashboard",
-      "link":"/",
-      "Icon":"IconDashboard"
+      "name":"Dashboard"
     },
     {
       "name":"Orders",
-      "link":"/orders",
-      "Icon":"IconShoppingCart"
+      "items":[
+        {
+          "name":"Level 2"
+        },
+        {
+          "name":"Level 2 with children",
+          "items":[
+            {
+              "name":"Level 3"
+            },
+            {
+              "name":"Level 3",
+              "items": [
+                {
+                  "name": "Level 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "another level 2"
+        }
+      ]
     },
     {
-      "name":"Customers",
-      "link":"/customers",
-      "Icon":"IconPeople"
+      "name":"Customers"
     },
     {
-      "name":"Reports",
-      "link":"/reports",
-      "Icon":"IconBarChart"
+      "name":"Reports"
     },
     {
       "name":"Nested Pages",
-      "Icon":"IconLibraryBooks",
       "items":[
         {
           "name":"Level 2"
